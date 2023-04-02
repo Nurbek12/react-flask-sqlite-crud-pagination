@@ -203,5 +203,5 @@ def delete(id):
         return jsonify(False)
 
 if __name__ == '__main__':
-    app.secret_key = 'admin123'
+    # app.secret_key = 'admin123'
     app.run()
